@@ -1,0 +1,421 @@
+Mon Feb  5 22:16:50 IST 2018
+2018-02-05 22:16:54.355683: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-02-05 22:16:54.731011: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:02:00.0
+totalMemory: 10.91GiB freeMemory: 2.32GiB
+2018-02-05 22:16:55.085256: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:82:00.0
+totalMemory: 10.91GiB freeMemory: 10.03GiB
+2018-02-05 22:16:55.484296: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 2 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:83:00.0
+totalMemory: 10.91GiB freeMemory: 2.32GiB
+2018-02-05 22:16:55.484548: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Device peer to peer matrix
+2018-02-05 22:16:55.484620: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1051] DMA: 0 1 2 
+2018-02-05 22:16:55.484633: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 0:   Y N N 
+2018-02-05 22:16:55.484642: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 1:   N Y Y 
+2018-02-05 22:16:55.484650: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 2:   N Y Y 
+2018-02-05 22:16:55.484667: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:02:00.0, compute capability: 6.1)
+2018-02-05 22:16:55.484679: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:1) -> (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:82:00.0, compute capability: 6.1)
+2018-02-05 22:16:55.484689: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:2) -> (device: 2, name: GeForce GTX 1080 Ti, pci bus id: 0000:83:00.0, compute capability: 6.1)
+['cond-rnnlm.py', '/exp/data/SEAME/train.txt', '/exp/data/SEAME/dev.txt', 'data/SEAME/segmentation_train.txt', 'data/SEAME/segmentation_dev.txt']
+[64, 32]
+Network Created
+Training Started
+Epoch 0 : 
+Training perplexity 66430.120593
+Test Perplexity 21775.126881
+Checkpoint
+Epoch 1 : 
+Training perplexity 20787.226326
+Test Perplexity 6588.347886
+Checkpoint
+Epoch 2 : 
+Training perplexity 3915.063873
+Test Perplexity 1179.718951
+Checkpoint
+Epoch 3 : 
+Training perplexity 1873.011119
+Test Perplexity 1098.025126
+Checkpoint
+Epoch 4 : 
+Training perplexity 1177.112351
+Test Perplexity 932.665613
+Checkpoint
+Epoch 5 : 
+Training perplexity 1047.145121
+Test Perplexity 845.841193
+Checkpoint
+Epoch 6 : 
+Training perplexity 989.023944
+Test Perplexity 804.780737
+Checkpoint
+Epoch 7 : 
+Training perplexity 966.901694
+Test Perplexity 884.482193
+Checkpoint
+Epoch 8 : 
+Training perplexity 944.093718
+Test Perplexity 770.599394
+Checkpoint
+Epoch 9 : 
+Training perplexity 895.037122
+Test Perplexity 762.010347
+Checkpoint
+Epoch 10 : 
+Training perplexity 866.231240
+Test Perplexity 733.031092
+Checkpoint
+Epoch 11 : 
+Training perplexity 838.532325
+Test Perplexity 701.758266
+Checkpoint
+Epoch 12 : 
+Training perplexity 804.494179
+Test Perplexity 703.097674
+Checkpoint
+Epoch 13 : 
+Training perplexity 778.342021
+Test Perplexity 656.205669
+Checkpoint
+Epoch 14 : 
+Training perplexity 752.648622
+Test Perplexity 634.819633
+Checkpoint
+Epoch 15 : 
+Training perplexity 711.868537
+Test Perplexity 571.872894
+Checkpoint
+Epoch 16 : 
+Training perplexity 654.775521
+Test Perplexity 527.041153
+Checkpoint
+Epoch 17 : 
+Training perplexity 606.386834
+Test Perplexity 540.961240
+Checkpoint
+Epoch 18 : 
+Training perplexity 583.842526
+Test Perplexity 488.697362
+Checkpoint
+Epoch 19 : 
+Training perplexity 555.656159
+Test Perplexity 461.294881
+Checkpoint
+Epoch 20 : 
+Training perplexity 524.748101
+Test Perplexity 432.794664
+Checkpoint
+Epoch 21 : 
+Training perplexity 505.903417
+Test Perplexity 420.385037
+Checkpoint
+Epoch 22 : 
+Training perplexity 484.551217
+Test Perplexity 395.939083
+Checkpoint
+Epoch 23 : 
+Training perplexity 469.754635
+Test Perplexity 401.827223
+Checkpoint
+Epoch 24 : 
+Training perplexity 459.831070
+Test Perplexity 373.492475
+Checkpoint
+Epoch 25 : 
+Training perplexity 440.480317
+Test Perplexity 363.991414
+Checkpoint
+Epoch 26 : 
+Training perplexity 430.745598
+Test Perplexity 356.048885
+Checkpoint
+Epoch 27 : 
+Training perplexity 422.753216
+Test Perplexity 348.716575
+Checkpoint
+Epoch 28 : 
+Training perplexity 407.084158
+Test Perplexity 342.617580
+Checkpoint
+Epoch 29 : 
+Training perplexity 393.743391
+Test Perplexity 339.495969
+Checkpoint
+Epoch 30 : 
+Training perplexity 388.237945
+Test Perplexity 325.049299
+Checkpoint
+Epoch 31 : 
+Training perplexity 381.314882
+Test Perplexity 329.451613
+Checkpoint
+Epoch 32 : 
+Training perplexity 370.321246
+Test Perplexity 316.674154
+Checkpoint
+Epoch 33 : 
+Training perplexity 359.936874
+Test Perplexity 311.182878
+Checkpoint
+Epoch 34 : 
+Training perplexity 357.199966
+Test Perplexity 307.253814
+Checkpoint
+Epoch 35 : 
+Training perplexity 345.440992
+Test Perplexity 301.468908
+Checkpoint
+Epoch 36 : 
+Training perplexity 342.520833
+Test Perplexity 298.972052
+Checkpoint
+Epoch 37 : 
+Training perplexity 334.476672
+Test Perplexity 295.206601
+Checkpoint
+Epoch 38 : 
+Training perplexity 328.176363
+Test Perplexity 290.512970
+Checkpoint
+Epoch 39 : 
+Training perplexity 324.246265
+Test Perplexity 286.770025
+Checkpoint
+Epoch 40 : 
+Training perplexity 317.587296
+Test Perplexity 285.073735
+Checkpoint
+Epoch 41 : 
+Training perplexity 312.076113
+Test Perplexity 277.101864
+Checkpoint
+Epoch 42 : 
+Training perplexity 306.208900
+Test Perplexity 278.683683
+Checkpoint
+Epoch 43 : 
+Training perplexity 302.143081
+Test Perplexity 277.037835
+Checkpoint
+Epoch 44 : 
+Training perplexity 298.404943
+Test Perplexity 272.571195
+Checkpoint
+Epoch 45 : 
+Training perplexity 290.015902
+Test Perplexity 266.495587
+Checkpoint
+Epoch 46 : 
+Training perplexity 289.725640
+Test Perplexity 265.414917
+Checkpoint
+Epoch 47 : 
+Training perplexity 283.914626
+Test Perplexity 265.211698
+Checkpoint
+Epoch 48 : 
+Training perplexity 283.107847
+Test Perplexity 260.292408
+Checkpoint
+Epoch 49 : 
+Training perplexity 274.295537
+Test Perplexity 285.036206
+Checkpoint
+Epoch 50 : 
+Training perplexity 269.275887
+Test Perplexity 254.679374
+Checkpoint
+Epoch 51 : 
+Training perplexity 267.975540
+Test Perplexity 251.121398
+Checkpoint
+Epoch 52 : 
+Training perplexity 262.310593
+Test Perplexity 248.064077
+Checkpoint
+Epoch 53 : 
+Training perplexity 256.754360
+Test Perplexity 256.673099
+Checkpoint
+Epoch 54 : 
+Training perplexity 254.987120
+Test Perplexity 244.712300
+Checkpoint
+Epoch 55 : 
+Training perplexity 252.942148
+Test Perplexity 243.527392
+Checkpoint
+Epoch 56 : 
+Training perplexity 250.808633
+Test Perplexity 248.937941
+Checkpoint
+Epoch 57 : 
+Training perplexity 246.220413
+Test Perplexity 238.759274
+Checkpoint
+Epoch 58 : 
+Training perplexity 242.736100
+Test Perplexity 241.668189
+Checkpoint
+Epoch 59 : 
+Training perplexity 242.251414
+Test Perplexity 236.704688
+Checkpoint
+Epoch 60 : 
+Training perplexity 238.736598
+Test Perplexity 241.000453
+Checkpoint
+Epoch 61 : 
+Training perplexity 234.090373
+Test Perplexity 234.494939
+Checkpoint
+Epoch 62 : 
+Training perplexity 233.201244
+Test Perplexity 239.643689
+Checkpoint
+Epoch 63 : 
+Training perplexity 228.819373
+Test Perplexity 234.846994
+Checkpoint
+Epoch 64 : 
+Training perplexity 225.778873
+Test Perplexity 227.674543
+Checkpoint
+Epoch 65 : 
+Training perplexity 223.743916
+Test Perplexity 228.357698
+Checkpoint
+Epoch 66 : 
+Training perplexity 220.440304
+Test Perplexity 227.965698
+Checkpoint
+Epoch 67 : 
+Training perplexity 219.417664
+Test Perplexity 228.600911
+Checkpoint
+Epoch 68 : 
+Training perplexity 215.840636
+Test Perplexity 226.526427
+Checkpoint
+Epoch 69 : 
+Training perplexity 214.453943
+Test Perplexity 227.900325
+Checkpoint
+Epoch 70 : 
+Training perplexity 212.428430
+Test Perplexity 223.302101
+Checkpoint
+Epoch 71 : 
+Training perplexity 208.543447
+Test Perplexity 221.614848
+Checkpoint
+Epoch 72 : 
+Training perplexity 205.641017
+Test Perplexity 219.988715
+Checkpoint
+Epoch 73 : 
+Training perplexity 205.050485
+Test Perplexity 225.274545
+Checkpoint
+Epoch 74 : 
+Training perplexity 202.767314
+Test Perplexity 218.059493
+Checkpoint
+Epoch 75 : 
+Training perplexity 199.657029
+Test Perplexity 218.445406
+Checkpoint
+Epoch 76 : 
+Training perplexity 199.026240
+Test Perplexity 216.622287
+Checkpoint
+Epoch 77 : 
+Training perplexity 195.541883
+Test Perplexity 216.091706
+Checkpoint
+Epoch 78 : 
+Training perplexity 193.308147
+Test Perplexity 213.468128
+Checkpoint
+Epoch 79 : 
+Training perplexity 191.314571
+Test Perplexity 213.034766
+Checkpoint
+Epoch 80 : 
+Training perplexity 192.365513
+Test Perplexity 210.675082
+Checkpoint
+Epoch 81 : 
+Training perplexity 189.344925
+Test Perplexity 211.414492
+Checkpoint
+Epoch 82 : 
+Training perplexity 187.521001
+Test Perplexity 209.737121
+Checkpoint
+Epoch 83 : 
+Training perplexity 184.717946
+Test Perplexity 209.329488
+Checkpoint
+Epoch 84 : 
+Training perplexity 184.280013
+Test Perplexity 208.397120
+Checkpoint
+Epoch 85 : 
+Training perplexity 181.342807
+Test Perplexity 205.701886
+Checkpoint
+Epoch 86 : 
+Training perplexity 179.214616
+Test Perplexity 207.088904
+Checkpoint
+Epoch 87 : 
+Training perplexity 178.305966
+Test Perplexity 207.805590
+Checkpoint
+Epoch 88 : 
+Training perplexity 177.199422
+Test Perplexity 208.216078
+Checkpoint
+Epoch 89 : 
+Training perplexity 175.484944
+Test Perplexity 206.591168
+Checkpoint
+Epoch 90 : 
+Training perplexity 173.072494
+Test Perplexity 205.219792
+Checkpoint
+Epoch 91 : 
+Training perplexity 171.474015
+Test Perplexity 203.950894
+Checkpoint
+Epoch 92 : 
+Training perplexity 170.066371
+Test Perplexity 204.341498
+Checkpoint
+Epoch 93 : 
+Training perplexity 169.759426
+Test Perplexity 202.991421
+Checkpoint
+Epoch 94 : 
+Training perplexity 166.618718
+Test Perplexity 201.843100
+Checkpoint
+Epoch 95 : 
+Training perplexity 166.629687
+Test Perplexity 202.162933
+Checkpoint
+Epoch 96 : 
+Training perplexity 164.296322
+Test Perplexity 203.538319
+Checkpoint
+Epoch 97 : 
+Training perplexity 164.280171
+Test Perplexity 208.205600
+Checkpoint
+Epoch 98 : 
+Training perplexity 160.830526
+Test Perplexity 200.892429

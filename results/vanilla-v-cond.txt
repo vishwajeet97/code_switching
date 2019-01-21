@@ -1,0 +1,54 @@
+Test set perplexity for RNNLM-test.py
+2018-02-06 00:35:53.066655: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-02-06 00:35:53.456651: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:02:00.0
+totalMemory: 10.91GiB freeMemory: 2.32GiB
+2018-02-06 00:35:53.844368: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:82:00.0
+totalMemory: 10.91GiB freeMemory: 10.03GiB
+2018-02-06 00:35:54.258370: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 2 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:83:00.0
+totalMemory: 10.91GiB freeMemory: 2.32GiB
+2018-02-06 00:35:54.258652: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Device peer to peer matrix
+2018-02-06 00:35:54.258735: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1051] DMA: 0 1 2 
+2018-02-06 00:35:54.258750: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 0:   Y N N 
+2018-02-06 00:35:54.258760: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 1:   N Y Y 
+2018-02-06 00:35:54.258769: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 2:   N Y Y 
+2018-02-06 00:35:54.258786: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:02:00.0, compute capability: 6.1)
+2018-02-06 00:35:54.258798: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:1) -> (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:82:00.0, compute capability: 6.1)
+2018-02-06 00:35:54.258809: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:2) -> (device: 2, name: GeForce GTX 1080 Ti, pci bus id: 0000:83:00.0, compute capability: 6.1)
+['RNNLM-test.py', '/exp/data/SEAME/train.txt', '/exp/data/SEAME/test.txt']
+[64, 32]
+Network Created
+Training Started
+Test Perplexity 59531.517689
+Test set perplexity for cond-rnnlm-test.py
+2018-02-06 00:36:04.595723: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-02-06 00:36:04.928397: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:02:00.0
+totalMemory: 10.91GiB freeMemory: 2.32GiB
+2018-02-06 00:36:05.255424: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:82:00.0
+totalMemory: 10.91GiB freeMemory: 10.03GiB
+2018-02-06 00:36:05.595147: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 2 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:83:00.0
+totalMemory: 10.91GiB freeMemory: 2.32GiB
+2018-02-06 00:36:05.595405: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Device peer to peer matrix
+2018-02-06 00:36:05.595478: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1051] DMA: 0 1 2 
+2018-02-06 00:36:05.595491: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 0:   Y N N 
+2018-02-06 00:36:05.595499: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 1:   N Y Y 
+2018-02-06 00:36:05.595507: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 2:   N Y Y 
+2018-02-06 00:36:05.595525: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:02:00.0, compute capability: 6.1)
+2018-02-06 00:36:05.595536: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:1) -> (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:82:00.0, compute capability: 6.1)
+2018-02-06 00:36:05.595562: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:2) -> (device: 2, name: GeForce GTX 1080 Ti, pci bus id: 0000:83:00.0, compute capability: 6.1)
+['cond-rnnlm-test.py', '/exp/data/SEAME/train.txt', '/exp/data/SEAME/test.txt', 'data/SEAME/segmentation_train.txt', 'data/SEAME/segmentation_test.txt']
+[64, 32]
+Network Created
+Training Started
+Test Perplexity 129653.558366

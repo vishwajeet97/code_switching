@@ -1,0 +1,19 @@
+Mon Mar 26 14:36:39 IST 2018
+2018-03-26 14:36:45.776241: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-03-26 14:36:46.278339: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:03:00.0
+totalMemory: 10.91GiB freeMemory: 2.44GiB
+2018-03-26 14:36:46.278409: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:03:00.0, compute capability: 6.1)
+2018-03-26 14:36:47.796413: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:03:00.0, compute capability: 6.1)
+The percentage of words treated as <unk> 0.236006
+Model saved in file: /home/vishwajeet/exp/src/models/cond-rnn_model-4.ckpt
+Epoch 0 : 
+Training ppl: 54500.900163 
+Traceback (most recent call last):
+  File "cond-lookahead-rnnlm.py", line 290, in <module>
+    input_data, target, keep_prob, loss, rnn_initial_state_0, rnn_initial_state_1, state_0, state_1 = inference_graph()
+  File "cond-lookahead-rnnlm.py", line 182, in inference_graph
+    min_index_state_0 = tf.stack([idx, tf.nn.top_k(entropy, k=2)[:,0]], axis=1)
+TypeError: tuple indices must be integers or slices, not tuple
+Mon Mar 26 14:37:24 IST 2018

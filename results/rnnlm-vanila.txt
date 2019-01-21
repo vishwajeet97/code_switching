@@ -1,0 +1,851 @@
+2018-02-04 20:36:32.440040: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-02-04 20:36:32.933189: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:02:00.0
+totalMemory: 10.91GiB freeMemory: 2.14GiB
+2018-02-04 20:36:33.354403: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:82:00.0
+totalMemory: 10.91GiB freeMemory: 123.38MiB
+2018-02-04 20:36:33.710916: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 2 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:83:00.0
+totalMemory: 10.91GiB freeMemory: 6.10GiB
+2018-02-04 20:36:33.711137: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Device peer to peer matrix
+2018-02-04 20:36:33.711192: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1051] DMA: 0 1 2 
+2018-02-04 20:36:33.711203: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 0:   Y N N 
+2018-02-04 20:36:33.711209: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 1:   N Y Y 
+2018-02-04 20:36:33.711215: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 2:   N Y Y 
+2018-02-04 20:36:33.711227: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:02:00.0, compute capability: 6.1)
+2018-02-04 20:36:33.711234: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:1) -> (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:82:00.0, compute capability: 6.1)
+2018-02-04 20:36:33.711241: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:2) -> (device: 2, name: GeForce GTX 1080 Ti, pci bus id: 0000:83:00.0, compute capability: 6.1)
+2018-02-04 20:36:33.734845: E tensorflow/stream_executor/cuda/cuda_driver.cc:936] failed to allocate 123.38M (129368064 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+['RNNLM.py', '/exp/data/SEAME/train.txt', '/exp/data/SEAME/dev.txt']
+[64, 32]
+Network Created
+Training Started
+Epoch 0 : 
+Training perplexity 62581.563729
+Test Perplexity 5381.302218
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 1 : 
+Training perplexity 7739.044123
+Test Perplexity 3500.599925
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 2 : 
+Training perplexity 2449.746062
+Test Perplexity 4330.648453
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 3 : 
+Training perplexity 1732.989316
+Test Perplexity 1060.193756
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 4 : 
+Training perplexity 1169.361016
+Test Perplexity 971.866974
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 5 : 
+Training perplexity 965.223488
+Test Perplexity 840.253801
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 6 : 
+Training perplexity 939.895217
+Test Perplexity 745.711697
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 7 : 
+Training perplexity 852.806352
+Test Perplexity 705.590376
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 8 : 
+Training perplexity 780.069163
+Test Perplexity 627.904543
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 9 : 
+Training perplexity 740.303925
+Test Perplexity 577.492931
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 10 : 
+Training perplexity 683.938075
+Test Perplexity 593.861251
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 11 : 
+Training perplexity 638.596789
+Test Perplexity 530.589906
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 12 : 
+Training perplexity 618.854571
+Test Perplexity 498.090154
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 13 : 
+Training perplexity 588.924046
+Test Perplexity 507.501694
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 14 : 
+Training perplexity 585.919127
+Test Perplexity 475.642936
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 15 : 
+Training perplexity 557.654859
+Test Perplexity 458.836995
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 16 : 
+Training perplexity 544.056590
+Test Perplexity 451.312544
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 17 : 
+Training perplexity 524.731648
+Test Perplexity 431.683556
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 18 : 
+Training perplexity 501.961337
+Test Perplexity 436.892998
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 19 : 
+Training perplexity 499.325945
+Test Perplexity 417.751002
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 20 : 
+Training perplexity 481.380333
+Test Perplexity 407.979045
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 21 : 
+Training perplexity 473.126393
+Test Perplexity 417.677733
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 22 : 
+Training perplexity 463.689020
+Test Perplexity 394.198711
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 23 : 
+Training perplexity 451.787229
+Test Perplexity 398.011252
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 24 : 
+Training perplexity 451.011162
+Test Perplexity 382.326837
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 25 : 
+Training perplexity 439.000107
+Test Perplexity 383.756201
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 26 : 
+Training perplexity 431.860365
+Test Perplexity 382.007151
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 27 : 
+Training perplexity 423.455089
+Test Perplexity 371.059695
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 28 : 
+Training perplexity 416.176266
+Test Perplexity 370.947677
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 29 : 
+Training perplexity 410.839129
+Test Perplexity 363.346237
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 30 : 
+Training perplexity 411.123374
+Test Perplexity 358.564233
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 31 : 
+Training perplexity 400.255601
+Test Perplexity 359.083551
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 32 : 
+Training perplexity 391.701305
+Test Perplexity 364.180191
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 33 : 
+Training perplexity 384.199390
+Test Perplexity 354.877705
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 34 : 
+Training perplexity 380.066397
+Test Perplexity 347.062257
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 35 : 
+Training perplexity 374.230179
+Test Perplexity 343.581634
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 36 : 
+Training perplexity 372.979945
+Test Perplexity 340.761993
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 37 : 
+Training perplexity 366.216330
+Test Perplexity 343.728625
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 38 : 
+Training perplexity 360.667558
+Test Perplexity 336.288443
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 39 : 
+Training perplexity 355.235972
+Test Perplexity 335.521586
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 40 : 
+Training perplexity 350.046408
+Test Perplexity 344.180492
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 41 : 
+Training perplexity 349.518438
+Test Perplexity 351.140201
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 42 : 
+Training perplexity 344.033268
+Test Perplexity 328.740189
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 43 : 
+Training perplexity 339.809009
+Test Perplexity 324.611808
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 44 : 
+Training perplexity 334.948780
+Test Perplexity 324.022917
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 45 : 
+Training perplexity 331.226304
+Test Perplexity 322.154155
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 46 : 
+Training perplexity 326.654940
+Test Perplexity 317.243612
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 47 : 
+Training perplexity 325.571730
+Test Perplexity 317.924976
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 48 : 
+Training perplexity 319.924436
+Test Perplexity 315.255227
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 49 : 
+Training perplexity 315.289295
+Test Perplexity 313.837516
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 50 : 
+Training perplexity 313.011034
+Test Perplexity 312.763571
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 51 : 
+Training perplexity 309.818745
+Test Perplexity 308.479055
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 52 : 
+Training perplexity 305.851629
+Test Perplexity 311.546141
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 53 : 
+Training perplexity 303.461000
+Test Perplexity 307.512882
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 54 : 
+Training perplexity 302.035855
+Test Perplexity 308.633380
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 55 : 
+Training perplexity 297.412171
+Test Perplexity 306.287849
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 56 : 
+Training perplexity 295.238727
+Test Perplexity 301.408073
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 57 : 
+Training perplexity 289.528120
+Test Perplexity 300.111086
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 58 : 
+Training perplexity 289.445192
+Test Perplexity 299.691481
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 59 : 
+Training perplexity 285.029605
+Test Perplexity 300.392314
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 60 : 
+Training perplexity 284.752296
+Test Perplexity 294.458676
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 61 : 
+Training perplexity 279.928725
+Test Perplexity 295.689862
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 62 : 
+Training perplexity 277.477637
+Test Perplexity 293.752248
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 63 : 
+Training perplexity 273.468852
+Test Perplexity 299.366121
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 64 : 
+Training perplexity 271.865229
+Test Perplexity 295.356462
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 65 : 
+Training perplexity 269.321830
+Test Perplexity 292.283374
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 66 : 
+Training perplexity 266.418743
+Test Perplexity 291.430133
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 67 : 
+Training perplexity 265.170647
+Test Perplexity 289.952563
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 68 : 
+Training perplexity 262.777445
+Test Perplexity 290.447099
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 69 : 
+Training perplexity 259.674422
+Test Perplexity 285.522884
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 70 : 
+Training perplexity 256.866191
+Test Perplexity 296.830173
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 71 : 
+Training perplexity 254.987714
+Test Perplexity 283.663341
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 72 : 
+Training perplexity 252.312396
+Test Perplexity 283.324777
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 73 : 
+Training perplexity 249.743608
+Test Perplexity 282.358894
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 74 : 
+Training perplexity 247.198060
+Test Perplexity 282.913054
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 75 : 
+Training perplexity 246.009289
+Test Perplexity 279.618090
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 76 : 
+Training perplexity 243.187665
+Test Perplexity 279.757398
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 77 : 
+Training perplexity 241.600122
+Test Perplexity 279.666558
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 78 : 
+Training perplexity 238.579194
+Test Perplexity 281.255198
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 79 : 
+Training perplexity 237.409622
+Test Perplexity 278.790396
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 80 : 
+Training perplexity 234.087323
+Test Perplexity 276.258734
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 81 : 
+Training perplexity 233.756627
+Test Perplexity 276.818104
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 82 : 
+Training perplexity 230.861322
+Test Perplexity 275.976893
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 83 : 
+Training perplexity 229.317612
+Test Perplexity 274.528791
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 84 : 
+Training perplexity 226.468691
+Test Perplexity 273.093916
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 85 : 
+Training perplexity 225.818976
+Test Perplexity 271.965885
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 86 : 
+Training perplexity 221.971790
+Test Perplexity 275.540311
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 87 : 
+Training perplexity 221.689178
+Test Perplexity 272.894072
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 88 : 
+Training perplexity 219.697290
+Test Perplexity 271.862020
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 89 : 
+Training perplexity 218.080595
+Test Perplexity 271.363885
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 90 : 
+Training perplexity 215.258611
+Test Perplexity 269.544831
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 91 : 
+Training perplexity 213.873385
+Test Perplexity 274.751057
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 92 : 
+Training perplexity 213.861580
+Test Perplexity 269.732051
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 93 : 
+Training perplexity 210.084450
+Test Perplexity 268.977807
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 94 : 
+Training perplexity 209.642041
+Test Perplexity 266.946614
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 95 : 
+Training perplexity 208.319881
+Test Perplexity 267.332723
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 96 : 
+Training perplexity 205.958404
+Test Perplexity 268.388960
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 97 : 
+Training perplexity 204.080632
+Test Perplexity 266.792970
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 98 : 
+Training perplexity 201.887615
+Test Perplexity 267.401729
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 99 : 
+Training perplexity 199.816297
+Test Perplexity 267.365252
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+2018-02-05 16:21:25.067266: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-02-05 16:21:25.417085: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:02:00.0
+totalMemory: 10.91GiB freeMemory: 2.17GiB
+2018-02-05 16:21:25.782653: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:82:00.0
+totalMemory: 10.91GiB freeMemory: 5.75GiB
+2018-02-05 16:21:26.156180: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 2 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:83:00.0
+totalMemory: 10.91GiB freeMemory: 2.17GiB
+2018-02-05 16:21:26.156480: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Device peer to peer matrix
+2018-02-05 16:21:26.156563: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1051] DMA: 0 1 2 
+2018-02-05 16:21:26.156578: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 0:   Y N N 
+2018-02-05 16:21:26.156587: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 1:   N Y Y 
+2018-02-05 16:21:26.156596: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 2:   N Y Y 
+2018-02-05 16:21:26.156612: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:02:00.0, compute capability: 6.1)
+2018-02-05 16:21:26.156624: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:1) -> (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:82:00.0, compute capability: 6.1)
+2018-02-05 16:21:26.156634: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:2) -> (device: 2, name: GeForce GTX 1080 Ti, pci bus id: 0000:83:00.0, compute capability: 6.1)
+['RNNLM.py', '/exp/data/SEAME/train.txt', '/exp/data/SEAME/dev.txt', '/data/SEAME/segmentation_train.txt', 'data/SEAME/segmentation_dev.txt']
+[64, 32]
+Network Created
+Training Started
+Epoch 0 : 
+Training perplexity 7510.511933
+Test Perplexity 4349.587693
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 1 : 
+Training perplexity 3304.517712
+Test Perplexity 1539.791902
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 2 : 
+Training perplexity 1624.646800
+Test Perplexity 826.969381
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 3 : 
+Training perplexity 1063.353719
+Test Perplexity 882.351612
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 4 : 
+Training perplexity 832.369295
+Test Perplexity 599.309166
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 5 : 
+Training perplexity 716.550179
+Test Perplexity 550.557427
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 6 : 
+Training perplexity 668.212427
+Test Perplexity 517.307400
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 7 : 
+Training perplexity 624.153458
+Test Perplexity 484.258682
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 8 : 
+Training perplexity 582.669242
+Test Perplexity 468.522457
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 9 : 
+Training perplexity 551.172435
+Test Perplexity 440.532019
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 10 : 
+Training perplexity 532.691697
+Test Perplexity 442.629217
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 11 : 
+Training perplexity 513.236240
+Test Perplexity 416.443358
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 12 : 
+Training perplexity 496.824553
+Test Perplexity 421.010931
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 13 : 
+Training perplexity 488.754996
+Test Perplexity 462.090551
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 14 : 
+Training perplexity 465.209081
+Test Perplexity 388.047431
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 15 : 
+Training perplexity 451.405141
+Test Perplexity 378.189705
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 16 : 
+Training perplexity 431.093618
+Test Perplexity 372.087863
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 17 : 
+Training perplexity 423.009101
+Test Perplexity 364.150165
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 18 : 
+Training perplexity 416.200996
+Test Perplexity 362.374983
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 19 : 
+Training perplexity 407.911147
+Test Perplexity 357.363077
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 20 : 
+Training perplexity 394.478205
+Test Perplexity 365.848505
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 21 : 
+Training perplexity 385.553077
+Test Perplexity 349.813681
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 22 : 
+Training perplexity 379.663961
+Test Perplexity 338.179873
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 23 : 
+Training perplexity 371.126246
+Test Perplexity 339.682381
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 24 : 
+Training perplexity 366.615630
+Test Perplexity 333.146966
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 25 : 
+Training perplexity 360.246510
+Test Perplexity 327.316904
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 26 : 
+Training perplexity 357.787028
+Test Perplexity 328.232895
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 27 : 
+Training perplexity 345.076863
+Test Perplexity 323.215535
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 28 : 
+Training perplexity 343.204995
+Test Perplexity 344.280203
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 29 : 
+Training perplexity 333.876707
+Test Perplexity 318.053284
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 30 : 
+Training perplexity 332.164902
+Test Perplexity 335.753280
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 31 : 
+Training perplexity 325.905276
+Test Perplexity 309.911127
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 32 : 
+Training perplexity 319.912105
+Test Perplexity 323.070329
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 33 : 
+Training perplexity 316.675007
+Test Perplexity 307.381568
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 34 : 
+Training perplexity 311.850784
+Test Perplexity 303.671727
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 35 : 
+Training perplexity 307.719692
+Test Perplexity 303.694407
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 36 : 
+Training perplexity 303.069501
+Test Perplexity 303.389626
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 37 : 
+Training perplexity 298.641122
+Test Perplexity 303.648735
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 38 : 
+Training perplexity 295.422650
+Test Perplexity 296.356451
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 39 : 
+Training perplexity 291.890390
+Test Perplexity 294.115868
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 40 : 
+Training perplexity 288.442673
+Test Perplexity 291.766268
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 41 : 
+Training perplexity 284.611270
+Test Perplexity 292.990744
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 42 : 
+Training perplexity 280.860730
+Test Perplexity 288.510640
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 43 : 
+Training perplexity 278.035628
+Test Perplexity 287.406117
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 44 : 
+Training perplexity 275.845951
+Test Perplexity 285.302915
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 45 : 
+Training perplexity 272.061707
+Test Perplexity 284.681088
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 46 : 
+Training perplexity 267.929217
+Test Perplexity 283.441114
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 47 : 
+Training perplexity 264.478289
+Test Perplexity 283.904188
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 48 : 
+Training perplexity 263.600496
+Test Perplexity 282.280097
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 49 : 
+Training perplexity 260.081277
+Test Perplexity 287.478218
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 50 : 
+Training perplexity 258.271581
+Test Perplexity 281.524368
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 51 : 
+Training perplexity 254.494305
+Test Perplexity 283.084885
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 52 : 
+Training perplexity 252.528428
+Test Perplexity 278.540003
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 53 : 
+Training perplexity 247.859000
+Test Perplexity 276.651227
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 54 : 
+Training perplexity 245.560104
+Test Perplexity 275.044118
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 55 : 
+Training perplexity 244.475224
+Test Perplexity 273.353800
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 56 : 
+Training perplexity 242.373464
+Test Perplexity 275.608241
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 57 : 
+Training perplexity 238.815974
+Test Perplexity 273.933097
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 58 : 
+Training perplexity 236.429875
+Test Perplexity 269.834197
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 59 : 
+Training perplexity 234.373458
+Test Perplexity 270.107383
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 60 : 
+Training perplexity 231.306052
+Test Perplexity 270.292040
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 61 : 
+Training perplexity 230.108374
+Test Perplexity 272.880965
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 62 : 
+Training perplexity 227.702333
+Test Perplexity 272.866912
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 63 : 
+Training perplexity 225.753858
+Test Perplexity 270.345225
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 64 : 
+Training perplexity 223.071337
+Test Perplexity 269.460352
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 65 : 
+Training perplexity 221.610793
+Test Perplexity 267.789842
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 66 : 
+Training perplexity 219.710456
+Test Perplexity 265.887446
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 67 : 
+Training perplexity 216.468713
+Test Perplexity 263.731298
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 68 : 
+Training perplexity 216.010459
+Test Perplexity 269.058153
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 69 : 
+Training perplexity 213.535254
+Test Perplexity 264.069271
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 70 : 
+Training perplexity 212.489064
+Test Perplexity 265.952142
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 71 : 
+Training perplexity 209.981680
+Test Perplexity 262.315032
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 72 : 
+Training perplexity 208.127795
+Test Perplexity 261.344721
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 73 : 
+Training perplexity 206.594267
+Test Perplexity 261.608217
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 74 : 
+Training perplexity 204.671497
+Test Perplexity 265.151439
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 75 : 
+Training perplexity 202.684486
+Test Perplexity 260.906539
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 76 : 
+Training perplexity 200.821984
+Test Perplexity 261.255074
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 77 : 
+Training perplexity 199.094316
+Test Perplexity 258.880454
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 78 : 
+Training perplexity 197.062892
+Test Perplexity 263.624312
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 79 : 
+Training perplexity 196.314349
+Test Perplexity 261.440106
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 80 : 
+Training perplexity 195.252646
+Test Perplexity 260.225002
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 81 : 
+Training perplexity 193.445978
+Test Perplexity 261.132432
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 82 : 
+Training perplexity 192.900426
+Test Perplexity 258.433578
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 83 : 
+Training perplexity 190.137936
+Test Perplexity 258.909256
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 84 : 
+Training perplexity 189.050618
+Test Perplexity 258.925908
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 85 : 
+Training perplexity 187.932796
+Test Perplexity 256.776530
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 86 : 
+Training perplexity 185.420494
+Test Perplexity 261.023223
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 87 : 
+Training perplexity 183.597423
+Test Perplexity 257.500499
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 88 : 
+Training perplexity 182.894831
+Test Perplexity 259.332585
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 89 : 
+Training perplexity 182.055891
+Test Perplexity 260.719521
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 90 : 
+Training perplexity 180.044833
+Test Perplexity 256.027225
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 91 : 
+Training perplexity 178.208048
+Test Perplexity 257.239666
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 92 : 
+Training perplexity 177.418913
+Test Perplexity 259.092811
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 93 : 
+Training perplexity 175.434685
+Test Perplexity 255.764654
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 94 : 
+Training perplexity 174.958021
+Test Perplexity 255.853983
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 95 : 
+Training perplexity 171.793098
+Test Perplexity 254.952095
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 96 : 
+Training perplexity 171.783992
+Test Perplexity 255.833264
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 97 : 
+Training perplexity 170.442741
+Test Perplexity 256.642436
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 98 : 
+Training perplexity 168.266581
+Test Perplexity 255.495432
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
+Epoch 99 : 
+Training perplexity 167.653880
+Test Perplexity 255.726443
+Model saved in file: /home/vishwajeet/exp/src/models/rnn_model-1.ckpt
